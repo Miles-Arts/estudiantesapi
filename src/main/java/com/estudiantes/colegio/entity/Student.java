@@ -11,9 +11,9 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long studentID;
-    private String firstname;
-    private String lastname;
-    @Column(name = "email_addres", unique = true, nullable = false)
+    private String firstName;
+    private String lastName;
+    @Column(name = "email_address", unique = true, nullable = false)
     private String email;
 
 }
